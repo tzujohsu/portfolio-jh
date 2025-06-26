@@ -39,7 +39,7 @@ experiences = [
         },
         {
             "role": "Data Scientist Intern",
-            "company": "Rocket Companies",
+            "company": "Rocket Companies (Amrock / Rocket Close)",
             "department": "",
             "type": "Internship",
             "duration": "May 2024 - Aug 2024",
