@@ -4,8 +4,6 @@ from utils.retriever import Retriever
 
 #%% setup config
 today_date = datetime.now()
-basepath = 'data/data-news/'
-
 #%%
 # step 1
 docloader = DocumentLoader()

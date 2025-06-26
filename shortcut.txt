@@ -19,3 +19,8 @@ langchain_text_splitters
 streamlit_timeline
 sentence-transformers
 langchain_huggingface
+
+[[pages]]
+path = "pages/timeline.py"
+name = "ChronoEvents: Timeline Generator"
+icon = ":hourglass_flowing_sand:"
