@@ -35,7 +35,7 @@ experiences = [
             "logo": "img/umich.png",
             "logo_initial": "UM",
             "color": "#00274C",  # Michigan Blue
-            "highlights": ["Teaching", "Information Retrieval", "Search Engine", "Facilitated the transfer of knowledge, caffeine, and optimism."]
+            "highlights": ["Information Retrieval", "Search Engine", "Teaching", "Facilitated the transfer of knowledge, caffeine, and optimism"]
         },
         {
             "role": "Data Scientist Intern",
@@ -49,7 +49,7 @@ experiences = [
             "logo": "img/rocket.png",
             "logo_initial": "RC",
             "color": "#cc4347",  # Rocket red
-            "highlights": ["Workflow Automation", "Large Language Models", "Natural Language Processing", "SQL", "AWS"]
+            "highlights": ["Workflow Automation", "Large Language Models", "Natural Language Processing", "SQL", "AWS", "Product Push 🚀"]
         },
         {
             "role": "Data Scientist Intern",
@@ -63,7 +63,7 @@ experiences = [
             "logo": "img/GM.png",
             "logo_initial": "GM",
             "color": "#FF5722",  # Marketing orange
-            "highlights": ["Marketing Analytics", "Trend Analysis", "Looker Dashboards", "Chatbot Development"]
+            "highlights": ["Chatbot Development", "LLM Fine-tuning","Trend Analysis", "Looker"]
         },
         {
             "role": "Data Science Co-op",
@@ -91,7 +91,7 @@ experiences = [
             "logo": "img/NYCU.png",
             "logo_initial": "NYCU",
             "color": "#0033A0",
-            "highlights": ["Knowledge Graph", "Explainable Recommendation", "Battled the lab's GPUs."]
+            "highlights": ["Knowledge Graph", "Explainable Recommendation", "Battled the lab's GPUs"]
         }
     ]
 
