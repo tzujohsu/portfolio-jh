@@ -35,7 +35,7 @@ experiences = [
             "logo": "img/umich.png",
             "logo_initial": "UM",
             "color": "#00274C",  # Michigan Blue
-            "highlights": ["Teaching", "Information Retrieval", "Search Engine"]
+            "highlights": ["Teaching", "Information Retrieval", "Search Engine", "Facilitated the transfer of knowledge, caffeine, and optimism."]
         },
         {
             "role": "Data Scientist Intern",
@@ -49,7 +49,7 @@ experiences = [
             "logo": "img/rocket.png",
             "logo_initial": "RC",
             "color": "#cc4347",  # Rocket red
-            "highlights": ["Workflow Automation", "Large language models", "Natural Language Processing", "SQL", "AWS"]
+            "highlights": ["Workflow Automation", "Large Language Models", "Natural Language Processing", "SQL", "AWS"]
         },
         {
             "role": "Data Scientist Intern",
@@ -78,6 +78,20 @@ experiences = [
             "logo_initial": "NB",            
             "color": "#00529B",  # Neuberger blue
             "highlights": ["Retrieval", "Data Visualization", "Chatbot Development"]
+        },
+        {
+            "role": "Undergraduate Research Assistant",
+            "company": "NYCU Fintech Lab",
+            "department": "",
+            "type": "Part-time",
+            "duration": "Oct 2020 - Dec 2021",
+            "tenure": "1yr 3 months",
+            "location": "Hsinchu City, Taiwan",
+            "description": "Handled data and conducted experiements for the NSTC project 'Knowledge Graph based Explainable Recommendation for Financial Product'.",
+            "logo": "img/NYCU.png",
+            "logo_initial": "NYCU",
+            "color": "#0033A0",
+            "highlights": ["Knowledge Graph", "Explainable Recommendation", "Battled the lab's GPUs."]
         }
     ]
 

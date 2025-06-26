@@ -56,9 +56,9 @@ with col1:
         <div style="text-align: left;">
             <h1 class="typing-effect"><strong>Hi, I'm Tzu-Jo Hsu</strong></h1>
             <h3><strong>I also go by Jocelyn.</h3>
-            <p>I'm a Data Scientist passionate about leveraging analytics and machine learning to solve cool challenges.</p>
-            <p>My interests span data analysis, predictive modeling, and information retrieval.</p>
-            <p>Explore my portfolio to see projects where I drive impact through AI and data!</p>
+            <p>I have two years of experience in data and developer roles, solving problems with ML, NLP, and LLMs.</p>
+            <p>These experiences pushed me to build robust, scalable solutions that bridge data, product thinking, and engineering.</p>
+            <p>Always looking for new challenges and opportunities to grow!</p>
         </div>
         """, 
         unsafe_allow_html=True
