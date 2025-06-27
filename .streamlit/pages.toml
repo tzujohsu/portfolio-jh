@@ -9,11 +9,11 @@ name = "Multi-label Categorization"
 icon = ":newspaper:"
 
 [[pages]]
-path = "pages/sales-dashboard.py"
-name = "Sales Analytics Dashboard"
-icon = ":chart_with_upwards_trend:"
-
-[[pages]]
 path = "pages/timeline.py"
 name = "ChronoEvents: Timeline Generator"
 icon = ":hourglass_flowing_sand:"
+
+[[pages]]
+path = "pages/sales-dashboard.py"
+name = "Sales Analytics Dashboard"
+icon = ":chart_with_upwards_trend:"
