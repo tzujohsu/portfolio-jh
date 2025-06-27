@@ -16,7 +16,7 @@ def create_project_card(project):
         </div>
         <p class='project-description'>{project['description']}</p>
         <br>
-        <a class="demo-button" color=white href="https://jocelynhsu.streamlit.app/{project['href']}"> Go to DEMO </a>
+        <a class="demo-button" color=white href="https://jocelynhsutjh.streamlit.app/{project['href']}"> Go to DEMO </a>
     </div>
     
     """
