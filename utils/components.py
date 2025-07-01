@@ -18,7 +18,6 @@ def create_project_card(project):
         <br>
         <a class="demo-button" color=white href="https://jocelynhsutjh.streamlit.app/{project['href']}"> Go to DEMO </a>
     </div>
-    
     """
 
 def create_project_section(projects):

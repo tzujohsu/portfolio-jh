@@ -35,7 +35,7 @@ experiences = [
             "logo": "img/umich.png",
             "logo_initial": "UM",
             "color": "#00274C",  # Michigan Blue
-            "highlights": ["Information Retrieval", "Search Engine", "Teaching", "Facilitated the transfer of knowledge, caffeine, and optimism"]
+            "highlights": ["Information Retrieval", "Search Engine", "Teaching", "😉Facilitated the transfer of knowledge, caffeine, and optimism"]
         },
         {
             "role": "Data Scientist Intern",
@@ -91,7 +91,7 @@ experiences = [
             "logo": "img/NYCU.png",
             "logo_initial": "NYCU",
             "color": "#0033A0",
-            "highlights": ["Knowledge Graph", "Explainable Recommendation", "Battled the lab's GPUs"]
+            "highlights": ["Knowledge Graph", "Explainable Recommendation", "😉Battled the lab's GPUs"]
         }
     ]
 
