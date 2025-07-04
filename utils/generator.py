@@ -40,7 +40,7 @@ class HuggingfaceTimelineGenerator:
             response = requests.post(self.API_URL, headers=self.headers, json=payload)
             
             if response.status_code != 200:
-                st.error(response.json())
+                st.error(response)
                 return []
             summarized_result = response.json()[0]['generated_text'].split('[Result]')[1].strip()
             
