@@ -21,9 +21,10 @@ class HuggingfaceTimelineGenerator:
         self.system_message = ""
         with open('timeline_template.json', "r") as f:
             self.timeline_template = json.load(f)
-        # 2025/03/20 update
-        self.API_URL = f"https://router.huggingface.co/hf-inference/models/{model_name}"
+        # 2025 07 04 update
+        self.API_URL = f"https://router.huggingface.co/novita/v3/openai/chat/completions"
         self.headers = {"Authorization": 'Bearer ' + st.secrets["HUGGINGFACE_TOKEN3"]}
+        
         self.prompt = """Summarize the following content that's DIRECTLY related to {0} into 3 full sentences ONLY and nothing else. 
                         Be concise and focus on the fact. Make sure the summarization is connected to the {0}.
                         Add html line break "<br>" between each sentence, Return as 1. <br> 2. <br> 3. <br> \n [Content] """
