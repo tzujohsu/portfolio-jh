@@ -43,7 +43,7 @@ class HuggingfaceTimelineGenerator:
             if response.status_code != 200:
                 st.error(response)
                 return []
-            summarized_result = response.json()[0]['generated_text'].split('[Result]')[1].strip()
+            summarized_result = response.json()['choices'][0]['message']['content'].strip()
             
             try:
                 summarized_results = summarized_result.split('<br>')
