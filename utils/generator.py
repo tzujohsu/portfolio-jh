@@ -37,11 +37,17 @@ class HuggingfaceTimelineGenerator:
         for i, v in content_df.iterrows():
             date, context = v.iloc[0], v.iloc[1]
             
-            payload = {'inputs': self.prompt.format(user_input) + context + ' [Result] '}
+            payload = {"messages": [
+                            {
+                                "role": "user",
+                                "content": self.prompt.format(user_input) + context + ' [Result] '
+                            }
+                        ],
+                        "model": "mistralai/mistral-7b-instruct",}
             response = requests.post(self.API_URL, headers=self.headers, json=payload)
-            
+
             if response.status_code != 200:
-                st.error(response)
+                st.error(response.json())
                 return []
             summarized_result = response.json()['choices'][0]['message']['content'].strip()
             
