@@ -3,7 +3,6 @@ beautifulsoup4
 st-pages
 openai
 accelerate
-posthog = ">=2.4.0,<6.0.0"
 chromadb==0.5.15
 langchain_chroma
 langchain_community
